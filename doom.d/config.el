@@ -33,7 +33,7 @@
 (setq which-key-idle-delay 0.001)
 
 ;; Fix powerlevel10k terminal theme.
-(doom-load-envvars-file "~/.emacs.d/.local/term")
+(doom-load-envvars-file "~/.doom.d/term-env")
 
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "google-chrome")
