@@ -86,7 +86,7 @@
 (add-hook '+doom-dashboard-mode-hook #'disable-display-fill-column-indicator-mode)
 (add-hook 'vterm-mode-hook #'disable-display-fill-column-indicator-mode)
 
-(setq fancy-splash-image "~/Pictures/kittens.jpg")
+(setq fancy-splash-image "~/.doom.d/splash.jpg")
 
 (setq centaur-tabs-height 16)
 (setq +treemacs-git-mode 'deferred)
