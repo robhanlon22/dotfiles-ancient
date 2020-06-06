@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#EBEEF4FF",
+        "font" : "System Light",
+        "color" : "#D7DDE9FF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#4B556AFF",
+        "font" : "System",
+        "color" : "#D7DDE9FF"
+      },
+      "backgroundSelected" : "#424B5EFF",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#EBEEF4FF",
+        "font" : "System",
+        "color" : "#E4E8F0FF"
+      },
+      "iconPaddingHorizontal" : 4,
+      "paddingVertical" : 3,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 5,
+      "background" : "#2D334000",
+      "spacing" : 8,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#E4E8F0FF",
+        "font" : "System Light",
+        "color" : "#EBEEF4FF"
+      },
+      "backgroundSelected" : "#5C80ADFF"
+    },
+    "window" : {
+      "color" : "#2D3340FF",
+      "paddingHorizontal" : 9,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#4B556AFF",
+      "blur" : 40,
+      "roundness" : 3,
+      "paddingVertical" : 8
+    },
+    "credit" : "Rob Hanlon",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#561A72FF",
+      "thickness" : 2
+    },
+    "name" : "Nord"
+  }
+}
