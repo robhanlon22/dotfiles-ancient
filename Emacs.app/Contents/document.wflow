@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>492</string>
+	<string>444.42</string>
 	<key>AMApplicationVersion</key>
-	<string>2.10</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -63,7 +63,7 @@
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
-					<integer>1</integer>
+					<integer>0</integer>
 					<key>shell</key>
 					<string>/bin/bash</string>
 					<key>source</key>
@@ -83,10 +83,8 @@
 				</array>
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
-				<key>IgnoresInput</key>
-				<false/>
 				<key>InputUUID</key>
-				<string>B7294AD4-76EC-49D6-8E2E-8F73F9D9EEAE</string>
+				<string>F7C3CDA9-201B-4529-8CFA-79BD643DF33F</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -96,9 +94,9 @@
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>A013D7C3-09CB-4E52-8F08-CA62657DA8E4</string>
+				<string>E8DEFBAA-CC37-4ED8-AFF3-18D8E21745AE</string>
 				<key>UUID</key>
-				<string>D0C96CE7-99C1-4C6E-99AB-2D0174F80427</string>
+				<string>AD47ADFB-07D3-4E3A-A148-1837241E96F5</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -121,9 +119,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -134,9 +132,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>source</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -171,6 +169,8 @@
 						<string>4</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
