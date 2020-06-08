@@ -44,6 +44,9 @@
 ;; All projectile, all the time.
 (setq doom-modeline-project-detection 'projectile)
 
+;; Enable emoji!
+(set-fontset-font t 'symbol (font-spec :family "Apple Color Emoji"))
+
 (use-package lispyville
   :config
 

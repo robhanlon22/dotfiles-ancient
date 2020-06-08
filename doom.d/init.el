@@ -19,10 +19,10 @@
        ;;japanese
 
        :completion
-       (company +tng) ; the ultimate code completion backend
+       (company +childframe) ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       (ivy +fuzzy +prescient +icons) ; a search engine for love and life
+       (ivy +fuzzy +prescient +icons)   ; a search engine for love and life
 
        :ui
        deft            ; notational velocity for Emacs
@@ -30,23 +30,28 @@
        doom-dashboard  ; a nifty splash screen for Emacs
        doom-quit       ; DOOM quit-message prompts when you quit Emacs
        ;; fill-column     ; a `fill-column' indicator
-       hl-todo     ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
+       hl-todo         ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
                                         ;  indent-guides   ; highlighted indent columns
        ;; minimap           ; show a map of the code on the side
 
-       modeline ; snazzy, Atom-inspired modeline, plus API
-       nav-flash         ; blink cursor line after big motions
+       modeline                       ; snazzy, Atom-inspired modeline, plus API
+
+       ;; blink cursor line after big motions
+       nav-flash
+
        ;;neotree           ; a project drawer, like NERDTree for vim
        ophints                    ; highlight the region an operation acts on
        (popup +defaults)          ; tame sudden yet inevitable temporary windows
-       ;;pretty-code       ; ligatures or substitute text with pretty symbols
+       ;; pretty-code       ; ligatures or substitute text with pretty symbols
        ;; tabs         ; a tab bar for Emacs
-       treemacs ; a project drawer, like neotree but cooler
-       unicode      ; extended unicode support for various languages
-       vc-gutter    ; vcs diff in the fringe
-       vi-tilde-fringe        ; fringe tildes to mark beyond EOB
-       window-select ; visually switch windows
+       treemacs                 ; a project drawer, like neotree but cooler
+       unicode                  ; extended unicode support for various languages
+       vc-gutter                ; vcs diff in the fringe
+
+       ;; fringe tildes to mark beyond EOB
+       ;; vi-tilde-fringe
+       window-select          ; visually switch windows
        workspaces             ; tab emulation, persistence & separate workspaces
        zen                    ; distraction-free coding or writing
 
@@ -78,7 +83,7 @@
        vterm                            ; the best terminal emulation in Emacs
 
        :checkers
-       syntax; tasing you for every semicolon you forget
+       syntax        ; tasing you for every semicolon you forget
        ;;spell             ; tasing you for misspelling mispelling
        ;;grammar           ; tasing grammar mistake every you make
 
@@ -115,7 +120,7 @@
        ;;crystal           ; ruby at the speed of c
        ;;csharp            ; unity, .NET, and mono shenanigans
        ;;data              ; config/data formats
-       ;;(dart +flutter)   ; paint ui and not much else
+       (dart +lsp +flutter)         ; paint ui and not much else
        ;;elixir            ; erlang done right
        ;;elm               ; care for a cup of TEA?
        emacs-lisp                       ; drown in parentheses
@@ -128,7 +133,7 @@
        ;;(haskell +dante)  ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        ;;idris             ;
-       (json +lsp)                 ; At least it ain't XML
+       (json +lsp)          ; At least it ain't XML
        (java +lsp +meghanada)      ; the poster child for carpal tunnel syndrome
        (javascript +lsp)           ; all(hope(abandon(ye(who(enter(here))))))
        ;;julia             ; a better, faster MATLAB
